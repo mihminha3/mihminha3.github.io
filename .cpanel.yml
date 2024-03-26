@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1663928/public_html/jakarta_bintangs/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH    
+    - /bin/cp -R forms $DEPLOYPATH
